@@ -11,7 +11,7 @@ export default function HomePage() {
     const [isLoading, setIsLoading] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
     const [connButtonText, setConnButtonText] = useState('Connect Wallet');
-    const contractAddress = "0x0B95b027eBe4aB451f1d6E4dE4D8e650aD74a229"; // Ensure this is the correct contract address
+    const contractAddress = "0xE0C7AEc4C62fb7D5D5F70042679F821207c0E42c"; // Ensure this is the correct contract address
 
     useEffect(() => {
         if (window.ethereum) {
